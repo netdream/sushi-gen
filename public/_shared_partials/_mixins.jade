@@ -15,6 +15,13 @@ mixin cd_logo
 		alt="#{ assets.coderdojo_logo.description }"
 	)&attributes(attributes)
 
+//- Add the local CoderDojo logo
+mixin cd_logo_local
+	img(
+		src="#{ assets.coderdojo_logo_local.path }",
+		alt="#{ assets.coderdojo_logo_local.description }"
+	)&attributes(attributes)
+
 //- Get the correct language title
 mixin lang_name
 	if language == "php"

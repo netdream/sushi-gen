@@ -13,6 +13,11 @@
 				"type" : "image/svg+xml",
 				"description" : "The CoderDojo logo"
 			}
+			"coderdojo_logo_local" : {
+				"path" : "/img/template_images/cd-logo-local.png",
+				"type" : "image/png",
+				"description" : "The local CoderDojo logo"
+			}
 		}
 	}
 }
